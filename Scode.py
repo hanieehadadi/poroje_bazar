@@ -1,6 +1,7 @@
 #product list 
 products= [{"id": 1, "name": "laptop", "price": 250, "stock": 6},
-{"id ": 2, "name": "camera", "price":300, "stock": 28}]
+{"id":4, "name": "Swatch", "price": 26, "stock":28}
+,{"id ": 2, "name": "camera", "price":300, "stock": 28}]
 
 
 def show_menue():
