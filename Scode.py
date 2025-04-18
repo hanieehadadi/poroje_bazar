@@ -11,3 +11,10 @@ def show_product():
     print("/n product list")
     for product in products:
         print(f"id:{product["id"]}, name:{product["name"]}")
+
+import pandas as pd
+def show_product_tabel():
+    df= pd.Dataframe(products)
+    df['stockPrice']= df['cost']* ['stock']
+    print("\n-- show tabel ---")
+    ptint(df)
